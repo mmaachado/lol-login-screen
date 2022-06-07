@@ -1,0 +1,104 @@
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --header-height: 3rem;
+
+    /*===== colors =====*/
+    --first-color: hsl(0, 0%, 100%);
+    --first-color-alt: hsl(0, 0%, 98%);
+    --grey-color-light: hsl(0, 0%, 93%);
+    --grey-color: hsl(0, 0%, 77%);
+    --grey-color-medium: hsl(0, 0%, 65%);
+    --grey-color-deep: hsl(0, 0%, 20%);
+    --text-color: hsl(0, 0%, 0%);
+    --button-blue: hsl(214, 90%, 53%);
+    --button-red: 	hsl(359, 60%, 52%);
+
+    /*===== font && typo =====*/
+    --body-font: 'Lexend Deca', sans-serif;
+    --big-font-size: 2.5rem;
+    --title-font-size: 1.5rem;
+    --normal-font-size: .938rem;
+
+    /*===== margenes =====*/
+    --mb-1-25: 1.25rem;
+    --mb-2: 2rem;
+    --mb-5: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        --big-font-size: 5rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .7rem;
+    }
+}
+
+/*===== BASE =====*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--body-font);
+}
+
+.login__home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100vh;
+    padding: clamp(35px, 8%, 70px);
+}
+
+.login__logo {
+    width: 130px;
+    margin-bottom: var(--mb-5);
+}
+
+.login__title {
+    color: var(--grey-color-deep);
+    font-size: var(--title-font-size);
+    margin-bottom: var(--mb-2);
+}
+
+.login__label {
+    display: block;
+    margin-bottom: var(--mb-1-25);
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    background-color: var(--grey-color-light);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: var(--normal-font-size);
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--grey-color-deep);
+}
+
+.login__label span {
+    position: absolute;
+    font-size: var(--normal-font-size);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--grey-color-medium);
+    margin: var(--mb-1-25);
+    cursor: text;
+    transition: all .4s ease;
+}
+
+.input:focus {
+    background-color: var(--first-color-alt);
+    border: 2px solid var(--grey-color-deep);
+}
+
+.login__label .span-active {
+    font-size: var(--small-font-size);
+    margin: 8px 10px;
+}
