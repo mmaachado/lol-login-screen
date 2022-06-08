@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/mmaachado/lol-login-screen?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/mmaachado/lol-login-screen?style=for-the-badge)
 
-<img src="/src/img/project-preview.png" alt="project-preview.png">
+<img src="./src/img/project-preview.png" alt="project-preview.png">
 
 > Project Preview.
 <br>
@@ -13,6 +13,7 @@
 
 > Project Preview Alternative.
 <br>
+
 ### Adjusts && fixes
 <!-- 
 - [x] Create Main Structures;
