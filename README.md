@@ -4,14 +4,13 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/mmaachado/lol-login-screen?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/mmaachado/lol-login-screen?style=for-the-badge)
 
-<img src="./src/img/project-preview.png" alt="project-preview.png">
+<img src="/src/assets/img/project-preview.png" alt="project-preview.png">
 
 > Project Preview.
 <br>
+<img src="/src/assets/img/project-preview-alt.png" alt="project-preview-alt.png">
 
-<img src="/src/img/project-preview-alt.png" alt="project-preview-alt.png">
-
-> Project Preview Alternative.
+> Project Preview (User Input).
 <br>
 
 ### Adjusts && fixes
@@ -32,7 +31,7 @@ This project is finished, feel free to fork/clone and message me if you think an
 
 ## 📝 License
 
-This project is under MIT license check [LICENSE](Licence.md) for more details.
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
 
 [⬆ Top](#League-of-Legends-Responsive-Login-Screen)<br>
